@@ -1,0 +1,150 @@
+*{margin: 0;
+    padding: 0;
+    
+    }
+    *:after,
+    *:before {
+        box-sizing: border-box;
+        margin-top: 0;
+    }
+    
+    html {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+    }
+    body
+    {   
+        margin: 0;
+    }
+    .container
+    {
+        width: 1140px;
+        margin: auto;
+    }
+    .navbar
+{
+    background-color: rgb(83, 194, 83);
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+    
+    
+} 
+.menu ul{
+    display: flex;
+    justify-items: center;
+    margin: 10px 10px 20px 0;
+    transition: all.8;
+}
+
+.heading h1
+{
+    font-size: 50px;
+    color: white;
+    margin-left: 70px;
+    
+  
+}
+/* --Top-Header start-- */
+.Top-Header{
+    background-color: aqua;
+    height: 50px;
+}
+.link-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    height: 50px;
+
+}
+.address{
+    display: flex;
+    align-items: center;
+    width: 55%;
+}
+.address h5{
+font-size: 16px;
+align-self: center;
+margin-left: 20px;
+align-items: center;
+margin-top: 10px;
+}
+.address i{
+    font-size: 25px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    justify-self: flex-end;
+    align-items: center;
+    width: 15%;
+  
+
+}
+/* --Top-Header end-- */
+
+ /* -- Main-Header-start-- */
+ .Main-Header{
+     background-color: darkgray;
+     height: 140px;
+ }
+ .logo{
+     width: 20%;
+ }
+ 
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .container-class{
+      display: flex;
+      justify-content: space-between;
+      align-self: center;
+      align-items: center;
+      height: 140px;
+  }
+  
+  /*--DROPDOWN MENU BAR--*/
+.dropdowns ul{
+   display: inline-flex;
+   list-style: none;
+   color: rgb(236, 66, 66);
+   font-weight: 500;
+}
+.dropdowns ul li{
+    width: 130px;
+    margin-top: 15px;
+    padding: 20px;
+}
+.dropdowns ul li a{
+    color: black;
+}
+.dropdowns ul li a:hover{
+    color: rgb(240, 21, 21);
+    
+}
+
+.sub-menu-1{
+    display: none;
+}
+  /*--DROPDOWN MENU BAR--*/
+
+ /* -- Main-Header-end-- */
+
+
