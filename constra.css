@@ -28,6 +28,7 @@
     body
     {   
         margin: 0;
+        font-family: 'Castoro', serif;
     }
     .container
     {
@@ -134,6 +135,7 @@ margin-top: 10px;
 }
 .dropdowns ul li a{
     color: black;
+    
 }
 .dropdowns ul li a:hover{
     color: rgb(240, 21, 21);
