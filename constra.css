@@ -156,13 +156,10 @@ margin-top: 10px;
 
 
  /* -- slider part start-- */
- .slider{
-     height: 400px;
-  
- }
+
  #carouselExampleControls{
      height: 400px;
-   
+     display: inline;
  }
  .carousel-item img{
     height: 700px;
@@ -170,5 +167,34 @@ margin-top: 10px;
  /* -- slider part end-- */
 
 
+ /* -- Request-Quote part start-- */
+ .Request-Quote{
+     display: flex;
+     background-color: rgb(14, 8, 8);
+     justify-content: space-between;
+     height: 100px;
+     align-items: center;
+   
+ }
+.request-button{
+    display: flex;
+    justify-content: space-between;
+}
+.left-side h3{
+    color: white;
+    font-size: 25px;
+}
+.right-side button{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: yellow;
+    color: black;
+    font-weight: 700;
+}
+.right-side button:hover{
+    background-color: white;
+    color: black;
+}
+ /* -- Request-Quote part end-- */
 
 
