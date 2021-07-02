@@ -155,3 +155,20 @@ margin-top: 10px;
  /* -- Main-Header-end-- */
 
 
+ /* -- slider part start-- */
+ .slider{
+     height: 400px;
+  
+ }
+ #carouselExampleControls{
+     height: 400px;
+   
+ }
+ .carousel-item img{
+    height: 700px;
+ }
+ /* -- slider part end-- */
+
+
+
+
