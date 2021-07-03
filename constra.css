@@ -124,16 +124,13 @@ margin-top: 10px;
   /*--DROPDOWN MENU BAR start--*/
 .dropdowns ul{
    display: inline-flex;
-   list-style: none;
    font-weight: 500;
-   text-decoration: none;
 
 }
 .dropdowns ul li{
     width: 130px;
     margin-top: 15px;
     padding: 20px;
-   text-decoration: none;
 
 }
 .dropdowns ul li a{
@@ -144,9 +141,8 @@ margin-top: 10px;
     color: rgb(240, 21, 21);
 }
 
-.sub-menu-1{
-    display: none;
-}
+
+
   /*--DROPDOWN MENU BAR end--*/
  /* -- Main-Header-end-- */
 
